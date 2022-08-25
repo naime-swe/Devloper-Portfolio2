@@ -9,6 +9,10 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 .top-img {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
@@ -31,7 +35,7 @@ p {
     border-radius: 10px;
 }
 
-section {
+.flexible-conteinar {
     display: flex;
     margin-bottom: 140px;
 }
@@ -44,4 +48,35 @@ section {
 
 .half-width img {
     width: 84%;
+}
+
+.flexible-conteinar {
+    display: flex;
+}
+
+.experiences-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: tomato 6px solid;
+}
+
+.experiences-area {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#experiences {
+    border-left: 6px solid aqua;
+}
+
+
+
+footer {
+    padding-left: 35%;
+    margin-bottom: 2%;
 }
