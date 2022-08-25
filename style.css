@@ -76,7 +76,6 @@ p {
 
 
 
-footer {
-    padding-left: 35%;
-    margin-bottom: 2%;
+footer p {
+    align-items: center;
 }
